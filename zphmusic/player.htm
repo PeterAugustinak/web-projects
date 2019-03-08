@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript" src="swfobject.js"></script>
+
+
+
+<style type="text/css">
+BODY { background-attachment: fixed; margin-left: 15px; margin-top: 5px;}
+</style>
+</head>
+
+
+<BODY BGCOLOR="Black" BACKGROUND="images/pozadie3.png" BGPROPERTIES=FIXED LINK="White" ALINK="White" VLINK="White" topmargin="5" leftmargin="15">
+<FONT FACE="Verdana" SIZE="1" COLOR="White">
+<p id="player2"><a href="http://www.macromedia.com/go/getflashplayer">Flash player</a> nie je inštalovaný ...</p>
+<script type="text/javascript">
+	var s2 = new SWFObject("mp3player.swf", "playlist", "400", "143", "3");
+	s2.addVariable("file","playlist.xml");
+	s2.addVariable("volume","40%");
+	s2.addVariable("autostart","true");
+        s2.addVariable("shuffle","true");
+        s2.addVariable("repeat","true");
+        s2.addVariable("backcolor","0xECECEC");
+	s2.addVariable("frontcolor","0x000000");
+	s2.addVariable("lightcolor","0x800000");
+	s2.addVariable("displayheight","0");
+	s2.write("player2");
+</script>
+
+
+
+</BODY>
+
+<HTML>
